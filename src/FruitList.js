@@ -7,11 +7,14 @@ const StyledDflex = styled.div
 `
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 `
 const StyledH1 = styled.h1
 `
+    font-size: 3rem;
     text-align: center;
     text-decoration:underline;
+    margin: 5rem;
 `
 const FruitList = () => {
     const fruitList = [
@@ -57,7 +60,7 @@ const FruitList = () => {
         },
 
     ]
-    const [fruits, setFruits] = useState(fruitList);
+    const [fruits, ] = useState(fruitList);
     return (
         <>
             <StyledH1>Fruit List</StyledH1>

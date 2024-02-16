@@ -4,13 +4,15 @@ import styled from 'styled-components';
 const StyledCard = styled.div
 `
     border: solid 1px gray;
+    border-radius: 10px;
     margin: 1rem;
     padding: 1rem;
 `
 const StyledImg = styled.img
 `
     width: 20rem;
-    height: 15rem
+    height: 15rem;
+    border-radius: 10px;
 
 `
 
