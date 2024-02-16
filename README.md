@@ -5,3 +5,5 @@ Recursion Reactコースの課題 「Fruit List」です。<br>
 - React 18.2.0
 - Styled-Component
   
+# deploy
+https://reinana.github.io/React-FruitList/
